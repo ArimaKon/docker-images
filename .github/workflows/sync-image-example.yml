@@ -28,3 +28,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
          skopeo copy docker://docker.io/library/nginx:latest docker://crpi-tgtlutmhzv1gy5p4.cn-shanghai.personal.cr.aliyuncs.com/temps/ngnix:latest
+         skopeo copy docker://docker.io/library/openjdk:11-jre docker://crpi-tgtlutmhzv1gy5p4.cn-shanghai.personal.cr.aliyuncs.com/temps/openjdk:11-jre
